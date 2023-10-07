@@ -41,6 +41,7 @@ function MovieSearchApp() {
 
   return (
     <div className="max-w-[1240px] shadow-xl min-h-[400px] mx-auto p-3">
+      <h1 className="text-center font-sans font-bold text-[40px] text-violet-600">Search Movies</h1>
       <input
         type="search"
         value={search}
